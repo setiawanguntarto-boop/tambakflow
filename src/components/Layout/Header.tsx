@@ -25,6 +25,9 @@ export const Header = () => {
           <a href="#workflow" className="hover:text-accent-light transition-colors font-medium">
             Alur
           </a>
+          <a href="/demo" className="hover:text-accent-light transition-colors font-medium">
+            Demo
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -62,6 +65,13 @@ export const Header = () => {
             onClick={() => setIsMenuOpen(false)}
           >
             Alur
+          </a>
+          <a
+            href="/demo"
+            className="block py-2 hover:text-accent-light transition-colors font-medium"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Demo
           </a>
         </div>
       )}

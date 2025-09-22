@@ -39,6 +39,14 @@ export const HeroSection = () => {
             >
               <a href="#features">Pelajari Fitur</a>
             </Button>
+
+            <Button 
+              variant="cta" 
+              size="xl"
+              asChild
+            >
+              <a href="/demo">Lihat Demo</a>
+            </Button>
             
             <Button 
               variant="whatsapp" 

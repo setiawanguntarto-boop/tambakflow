@@ -30,15 +30,22 @@ const WhatsAppMockup = () => {
         </p>
       </div>
 
-      <div className="w-full max-w-sm mx-auto h-[700px] bg-card rounded-[2.5rem] p-4 border-[10px] border-foreground shadow-2xl flex flex-col">
+      <div className="w-full max-w-sm mx-auto h-[700px] bg-white rounded-[2.5rem] p-1 border-2 border-gray-800 shadow-[0_0_0_2px_#000,0_0_0_6px_#333,0_20px_40px_rgba(0,0,0,0.4)] flex flex-col relative overflow-hidden" style={{ background: 'linear-gradient(145deg, #1f1f1f 0%, #2d2d2d 50%, #1a1a1a 100%)' }}>
+        {/* Phone bezel and notch */}
+        <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-full z-20"></div>
+        <div className="absolute top-4 right-4 w-2 h-2 bg-gray-600 rounded-full z-20"></div>
+        
+        {/* Screen content */}
+        <div className="bg-white rounded-[2.2rem] flex-1 flex flex-col overflow-hidden m-1">
+        
         {/* Header */}
-        <div className="bg-muted p-3 flex items-center shadow-md flex-shrink-0 -mx-4 -mt-4 rounded-t-[2rem]">
+        <div className="bg-[#075E54] p-3 flex items-center shadow-md flex-shrink-0 rounded-t-[2rem]">
           <ArrowLeft className="w-5 h-5 text-muted-foreground" />
           <div className="w-10 h-10 rounded-full bg-primary border-2 border-white mx-3 flex items-center justify-center font-bold text-primary-foreground text-lg">
             Tf
           </div>
           <div>
-            <div className="font-bold text-foreground">Tambakflow</div>
+            <div className="font-bold text-white">Tambakflow</div>
             <div className="text-success text-xs font-semibold">online</div>
           </div>
         </div>
@@ -91,17 +98,19 @@ const WhatsAppMockup = () => {
         </div>
 
         {/* Input Area */}
-        <div className="p-2 bg-muted flex items-center flex-shrink-0 -mx-4 -mb-4 rounded-b-[2rem]">
-          <Smile className="w-6 h-6 text-muted-foreground" />
+        <div className="p-3 bg-[#f0f0f0] flex items-center flex-shrink-0 rounded-b-[2rem] border-t border-gray-200">
+          <Smile className="w-6 h-6 text-gray-500" />
           <input
             type="text"
             placeholder="Ketik pesan..."
-            className="flex-1 mx-2 px-4 py-2 bg-card border border-border rounded-full text-sm"
+            className="flex-1 mx-2 px-4 py-2 bg-white border border-gray-300 rounded-full text-sm"
             disabled
           />
-          <div className="w-8 h-8 rounded-full bg-whatsapp-green text-white flex items-center justify-center">
+          <div className="w-8 h-8 rounded-full bg-[#25D366] text-white flex items-center justify-center">
             <Send className="w-4 h-4" />
           </div>
+        </div>
+        
         </div>
       </div>
     </div>

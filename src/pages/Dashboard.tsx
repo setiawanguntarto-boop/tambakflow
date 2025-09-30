@@ -1,10 +1,26 @@
-import { BarChart3, User } from "lucide-react";
+import { BarChart3, User, ArrowLeft } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 import WhatsAppMockup from "@/components/WhatsAppMockup";
 import DashboardMain from "@/components/DashboardMain";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-background">
+      {/* Back Button */}
+      <div className="p-4">
+        <Button
+          variant="ghost"
+          onClick={() => navigate("/")}
+          className="text-primary hover:text-primary hover:bg-primary/10"
+        >
+          <ArrowLeft className="w-4 h-4 mr-2" />
+          Kembali ke Beranda
+        </Button>
+      </div>
+
       {/* Header */}
       <header className="text-center py-8 px-4">
         <div className="flex items-center justify-center gap-3 mb-4">

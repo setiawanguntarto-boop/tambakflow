@@ -46,7 +46,10 @@ const WhatsAppMockup = () => {
         {/* Chat Area */}
         <div
           className="flex-1 p-3 overflow-y-auto flex flex-col gap-2 my-2 -mx-2"
-          style={{ backgroundColor: "hsl(var(--whatsapp-bg))" }}
+          style={{ 
+            background: "linear-gradient(to bottom, #e5ddd5 0%, #d2d0ce 100%)",
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='m36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+          }}
         >
           <div className="self-center text-xs bg-info/20 text-info px-2 py-1 rounded-full shadow-sm">
             Hari ini

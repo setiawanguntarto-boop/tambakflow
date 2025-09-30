@@ -15,7 +15,7 @@ const WorkflowStep = ({
   description: string; 
   items: string[]; 
 }) => (
-  <Card className="p-6 shadow-card bg-gradient-card border-accent/20 hover:shadow-ocean transition-all duration-300">
+  <Card className="p-8 rounded-2xl bg-card/90 border border-border/30 shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.02] backdrop-blur-sm">
     <div className="flex items-center gap-3 mb-4">
       <Badge className="h-8 w-8 rounded-full bg-primary text-primary-foreground grid place-items-center font-bold text-base">
         {step}

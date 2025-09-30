@@ -32,7 +32,7 @@ const WorkflowStep = ({
 );
 
 const RoleCard = ({ role, description }: { role: string; description: string }) => (
-  <Card className="p-6 bg-background border-accent/30 shadow-card">
+  <Card className="p-8 rounded-2xl bg-card/90 border border-border/30 shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.02] backdrop-blur-sm">
     <h5 className="text-base font-semibold text-primary mb-2">{role}</h5>
     <p className="text-muted-foreground text-sm leading-relaxed">{description}</p>
   </Card>

@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 217 91% 60%;
+    --primary: 222 47% 36%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -38,10 +38,10 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Tambakflow specific colors */
-    --primary-light: 217 91% 75%;
-    --primary-dark: 217 91% 45%;
-    --accent-light: 199 89% 70%;
+    /* Tambakflow brand colors - extracted from logo */
+    --primary-light: 222 47% 55%;
+    --primary-dark: 222 47% 25%;
+    --accent-light: 222 47% 65%;
     --success: 142 76% 36%;
     --success-foreground: 0 0% 98%;
     --warning: 38 92% 50%;
@@ -55,8 +55,8 @@ All colors MUST be HSL.
     --whatsapp-bubble: 0 0% 100%;
     --whatsapp-sent: 142 60% 90%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(199 89% 48%));
+    /* Gradients - updated with brand colors */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
     --gradient-ocean: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-dark)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--primary-dark) / 0.9), hsl(var(--primary) / 0.8));
     --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(142 60% 50%));

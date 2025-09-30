@@ -123,22 +123,6 @@ export const WorkflowSection = () => {
           ))}
         </div>
 
-        {/* Demo PDF Download */}
-        <div className="text-center mb-16">
-          <Card className="inline-block p-8 bg-gradient-card border-accent/30 shadow-ocean">
-            <h4 className="text-xl font-semibold text-primary mb-4">Contoh Laporan PDF</h4>
-            <p className="text-muted-foreground mb-6 max-w-md">
-              Unduh contoh laporan untuk melihat format dan konten yang dihasilkan sistem.
-            </p>
-            <Button variant="cta" size="lg" className="mb-4">
-              <Download className="mr-2 h-5 w-5" />
-              Unduh Laporan PDF
-            </Button>
-            <p className="text-xs text-muted-foreground">
-              *Tautan demo — integrasi generator PDF dapat ditambahkan saat produk siap.
-            </p>
-          </Card>
-        </div>
 
         {/* Role Summary */}
         <div className="grid md:grid-cols-3 gap-6 mb-12">

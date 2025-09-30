@@ -45,7 +45,7 @@ export const HeroSection = () => {
               size="xl"
               asChild
             >
-              <a href="/demo">Lihat Demo</a>
+              <a href="/dashboard">Lihat Demo</a>
             </Button>
             
             <Button 

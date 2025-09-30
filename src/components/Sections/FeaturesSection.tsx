@@ -9,9 +9,9 @@ interface FeatureCardProps {
 }
 
 const FeatureCard = ({ title, description, badge }: FeatureCardProps) => (
-  <Card className="p-8 shadow-card hover:shadow-ocean transition-all duration-500 transform hover:-translate-y-2 bg-background border-accent/20 group">
+  <Card className="p-8 rounded-2xl bg-card/90 border border-border/30 shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.12)] transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.02] group backdrop-blur-sm">
     <div className="flex items-start justify-between mb-4">
-      <h4 className="text-xl font-semibold text-primary group-hover:text-accent transition-colors">
+      <h4 className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors active:text-foreground focus:text-foreground">
         {title}
       </h4>
       {badge && (

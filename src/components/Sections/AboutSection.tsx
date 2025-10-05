@@ -17,11 +17,7 @@ export const AboutSection = () => {
             Tentang Tambakflow
           </h3>
           <p className="text-foreground max-w-5xl mx-auto leading-relaxed text-lg">
-            Secara bisnis, menurunkan FCR{" "}
-            <span className="font-semibold text-accent">0,10</span> pada biomassa{" "}
-            <span className="font-semibold text-accent">10 ton</span> dengan harga pakan{" "}
-            <span className="font-semibold text-accent">Rp14.000/kg</span> sudah menghemat sekitar{" "}
-            <span className="font-semibold text-accent">Rp14 juta per siklus</span>. 
+            Secara bisnis, menurunkan FCR <span className="font-semibold text-accent">0,10</span> pada biomassa <span className="font-semibold text-accent">10 ton</span> dengan harga pakan <span className="font-semibold text-accent">Rp14.000/kg</span> sudah menghemat sekitar <span className="font-semibold text-accent">Rp14 juta per siklus</span>. 
             Menjaga SR naik 3–7 poin dan ADG stabil memperlebar margin tanpa menambah biaya struktur. 
             Traceability rapi mempercepat pembayaran (DSO) dan membuka akses buyer/financier yang menuntut data.
           </p>

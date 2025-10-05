@@ -1,19 +1,13 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-tambakflow.jpg";
-
 export const HeroSection = () => {
-  return (
-    <section
-      id="home"
-      className="relative text-primary-foreground text-center py-20 md:py-32 min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage: `linear-gradient(135deg, hsl(var(--primary-dark) / 0.9), hsl(var(--primary) / 0.8)), url(${heroImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
-    >
+  return <section id="home" className="relative text-primary-foreground text-center py-20 md:py-32 min-h-screen flex items-center justify-center overflow-hidden" style={{
+    backgroundImage: `linear-gradient(135deg, hsl(var(--primary-dark) / 0.9), hsl(var(--primary) / 0.8)), url(${heroImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed"
+  }}>
       <div className="absolute inset-0 bg-gradient-hero opacity-80" />
       
       <div className="container mx-auto px-6 relative z-10">
@@ -32,32 +26,16 @@ export const HeroSection = () => {
           </p>
           
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <Button 
-              variant="hero" 
-              size="xl"
-              asChild
-            >
-              <a href="#features">Pelajari Fitur</a>
+            <Button variant="hero" size="xl" asChild>
+              
             </Button>
 
-            <Button 
-              variant="cta" 
-              size="xl"
-              asChild
-            >
+            <Button variant="cta" size="xl" asChild>
               <a href="/dashboard">Lihat Demo</a>
             </Button>
             
-            <Button 
-              variant="whatsapp" 
-              size="xl"
-              asChild
-            >
-              <a 
-                href="https://wa.me/6287731771859" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
+            <Button variant="whatsapp" size="xl" asChild>
+              <a href="https://wa.me/6287731771859" target="_blank" rel="noopener noreferrer">
                 Hubungi via WhatsApp
               </a>
             </Button>
@@ -72,6 +50,5 @@ export const HeroSection = () => {
       
       {/* Decorative elements */}
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background/20 to-transparent" />
-    </section>
-  );
+    </section>;
 };

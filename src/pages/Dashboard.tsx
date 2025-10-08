@@ -48,7 +48,7 @@ const Dashboard = () => {
                 <header className="bg-card shadow-sm sticky top-0 z-10 rounded-lg mb-6">
                   <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                     <div className="flex items-center space-x-3">
-                      <BarChart3 className="w-8 h-8 text-primary" />
+                      
                       <h1 className="text-xl font-bold text-foreground">Dasbor Monitoring</h1>
                     </div>
                     <div className="flex items-center space-x-4">

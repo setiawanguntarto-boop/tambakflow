@@ -3,19 +3,12 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import WhatsAppMockup from "@/components/WhatsAppMockup";
 import DashboardMain from "@/components/DashboardMain";
-
 const Dashboard = () => {
   const navigate = useNavigate();
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Back Button */}
       <div className="p-4">
-        <Button
-          variant="ghost"
-          onClick={() => navigate("/")}
-          className="text-primary hover:text-primary hover:bg-primary/10"
-        >
+        <Button variant="ghost" onClick={() => navigate("/")} className="text-primary hover:text-primary hover:bg-primary/10">
           <ArrowLeft className="w-4 h-4 mr-2" />
           Kembali ke Beranda
         </Button>
@@ -24,7 +17,7 @@ const Dashboard = () => {
       {/* Header */}
       <header className="text-center py-8 px-4">
         <div className="flex items-center justify-center gap-3 mb-4">
-          <BarChart3 className="w-12 h-12 text-primary" />
+          
           <h1 className="text-4xl font-extrabold text-foreground">Dasbor Aplikasi Tambakflow</h1>
         </div>
         <p className="text-muted-foreground max-w-2xl mx-auto">
@@ -75,8 +68,6 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Dashboard;

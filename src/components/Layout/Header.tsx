@@ -6,7 +6,7 @@ export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return <header className="bg-gradient-ocean text-primary-foreground shadow-ocean sticky top-0 z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#home" aria-label="Homepage" className="flex items-center space-x-2">
+        <a href="/" aria-label="Homepage" className="flex items-center space-x-2">
           <Logo />
           <h1 className="text-2xl font-bold hidden md:block">Tambakflow</h1>
         </a>

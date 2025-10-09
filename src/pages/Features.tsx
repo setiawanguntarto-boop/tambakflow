@@ -1,20 +1,18 @@
 import React from "react";
 import { Header } from "@/components/Layout/Header";
-import { HeroSection } from "@/components/Sections/HeroSection";
-import { WorkflowSection } from "@/components/Sections/WorkflowSection";
+import { FeaturesSection } from "@/components/Sections/FeaturesSection";
 import { Footer } from "@/components/Layout/Footer";
 
-const Index = () => {
+const Features = () => {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
       <Header />
       <main>
-        <HeroSection />
-        <WorkflowSection />
+        <FeaturesSection />
       </main>
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default Features;

@@ -13,10 +13,10 @@ export const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <a href="#about" className="hover:text-accent-light transition-colors font-medium">
+          <a href="/about" className="hover:text-accent-light transition-colors font-medium">
             Tentang
           </a>
-          <a href="#features" className="hover:text-accent-light transition-colors font-medium">
+          <a href="/features" className="hover:text-accent-light transition-colors font-medium">
             Fitur
           </a>
           <a href="#workflow" className="hover:text-accent-light transition-colors font-medium">
@@ -35,10 +35,10 @@ export const Header = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && <div className="md:hidden bg-primary-dark text-center pb-4 space-y-2">
-          <a href="#about" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
+          <a href="/about" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
             Tentang
           </a>
-          <a href="#features" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
+          <a href="/features" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
             Fitur
           </a>
           <a href="#workflow" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>

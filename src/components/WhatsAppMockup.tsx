@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ArrowLeft, Send, Smile } from "lucide-react";
+import { Logo } from "@/components/Brand/Logo";
 const WhatsAppMockup = () => {
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
   const messages = [{
@@ -52,8 +53,8 @@ const WhatsAppMockup = () => {
         {/* Header */}
         <div className="bg-[#075E54] p-3 flex items-center shadow-md flex-shrink-0 rounded-t-[2rem]">
           <ArrowLeft className="w-5 h-5 text-muted-foreground" />
-          <div className="w-10 h-10 rounded-full bg-primary border-2 border-white mx-3 flex items-center justify-center font-bold text-primary-foreground text-lg">
-            Tf
+          <div className="w-10 h-10 rounded-full bg-white border-2 border-white mx-3 flex items-center justify-center overflow-hidden">
+            <Logo />
           </div>
           <div>
             <div className="font-bold text-white">Tambakflow</div>

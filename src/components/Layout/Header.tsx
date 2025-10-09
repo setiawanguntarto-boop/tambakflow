@@ -13,7 +13,9 @@ export const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          
+          <a href="#about" className="hover:text-accent-light transition-colors font-medium">
+            Tentang
+          </a>
           <a href="#features" className="hover:text-accent-light transition-colors font-medium">
             Fitur
           </a>

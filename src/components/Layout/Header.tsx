@@ -19,7 +19,7 @@ export const Header = () => {
           <a href="/features" className="hover:text-accent-light transition-colors font-medium">
             Fitur
           </a>
-          <a href="#workflow" className="hover:text-accent-light transition-colors font-medium">
+          <a href="/workflow" className="hover:text-accent-light transition-colors font-medium">
             Alur
           </a>
           <a href="/demo" className="hover:text-accent-light transition-colors font-medium">
@@ -41,7 +41,7 @@ export const Header = () => {
           <a href="/features" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
             Fitur
           </a>
-          <a href="#workflow" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
+          <a href="/workflow" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
             Alur
           </a>
           <a href="/demo" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>

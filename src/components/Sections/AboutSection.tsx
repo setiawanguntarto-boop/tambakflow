@@ -11,5 +11,18 @@ const InfoCard = ({
     <p className="text-muted-foreground leading-relaxed">{text}</p>
   </Card>;
 export const AboutSection = () => {
-  return;
+  return (
+    <section id="about" className="py-16 md:py-24 bg-background">
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-16">
+          <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+            Mengapa Tambakflow Berbeda?
+          </h3>
+          <p className="max-w-3xl mx-auto text-lg text-muted-foreground leading-relaxed">
+            Tambakflow dirancang khusus untuk pembudidaya udang vaname yang menginginkan sistem pencatatan data yang <span className="font-semibold text-primary">sederhana, andal, dan berbasis peran</span>, sehingga teknisi lapangan tetap fokus pada tugasnya tanpa perlu mempelajari aplikasi rumit.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
 };

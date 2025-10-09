@@ -35,7 +35,7 @@ export const HeroSection = () => {
             </Button>
             
             <Button variant="whatsapp" size="xl" asChild>
-              <a href="https://wa.me/6287731771859" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/62881024280794" target="_blank" rel="noopener noreferrer">
                 Hubungi via WhatsApp
               </a>
             </Button>

@@ -18,7 +18,7 @@ const buttonVariants = cva(
         hero: "bg-gradient-ocean text-primary-foreground hover:shadow-glow border-0 font-bold rounded-full",
         cta: "bg-accent text-accent-foreground hover:bg-accent-light shadow-card font-bold rounded-full",
         whatsapp: "bg-success text-success-foreground hover:bg-success/90 shadow-card font-bold rounded-full",
-        heroOutline: "bg-white/10 text-white border-2 border-white/30 hover:bg-white/20 hover:border-white/50 backdrop-blur-sm font-bold",
+        heroOutline: "bg-white text-primary border-2 border-white hover:bg-white/90 font-bold",
       },
       size: {
         default: "h-10 px-4 py-2",

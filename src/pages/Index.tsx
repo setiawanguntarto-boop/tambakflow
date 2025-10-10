@@ -5,11 +5,12 @@ import { Footer } from "@/components/Layout/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans flex flex-col">
+    <div className="min-h-screen bg-background text-foreground font-sans">
       <Header />
-      <main className="flex-1">
+      <main>
         <HeroSection />
       </main>
+      <Footer />
     </div>
   );
 };

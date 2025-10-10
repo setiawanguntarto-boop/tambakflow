@@ -12,7 +12,7 @@ export const Header = () => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden md:flex space-x-6 items-center">
           <a href="/about" className="hover:text-accent-light transition-colors font-medium">
             Tentang
           </a>
@@ -25,6 +25,9 @@ export const Header = () => {
           <a href="/demo" className="hover:text-accent-light transition-colors font-medium">
             Demo
           </a>
+          <Button variant="cta" size="default" asChild>
+            <a href="/dashboard">Lihat Dashboard</a>
+          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -47,6 +50,11 @@ export const Header = () => {
           <a href="/demo" className="block py-2 hover:text-accent-light transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>
             Demo
           </a>
+          <div className="px-6 pt-2">
+            <Button variant="cta" size="default" asChild className="w-full">
+              <a href="/dashboard" onClick={() => setIsMenuOpen(false)}>Lihat Dashboard</a>
+            </Button>
+          </div>
         </div>}
     </header>;
 };

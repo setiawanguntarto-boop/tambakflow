@@ -26,14 +26,6 @@ export const HeroSection = () => {
           </p>
           
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="xl" asChild>
-              
-            </Button>
-
-            <Button variant="cta" size="xl" asChild>
-              <a href="/dashboard">Lihat Demo</a>
-            </Button>
-            
             <Button variant="whatsapp" size="xl" asChild>
               <a href="https://wa.me/62881024280794" target="_blank" rel="noopener noreferrer">
                 Hubungi via WhatsApp

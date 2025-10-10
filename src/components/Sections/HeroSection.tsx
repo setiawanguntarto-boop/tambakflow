@@ -27,7 +27,7 @@ export const HeroSection = () => {
           
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <Button variant="whatsapp" size="xl" asChild>
-              <a href="https://wa.me/6281024280794?text=Halo%20Tambakflow" target="_blank" rel="noopener noreferrer">Coba Versi Demo</a>
+              <a href="https://api.whatsapp.com/send/?phone=62881024280794&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">Coba Versi Demo</a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
               <a href="https://youtu.be/GZgQxegbHnw" target="_blank" rel="noopener noreferrer">Lihat Tutorial</a>

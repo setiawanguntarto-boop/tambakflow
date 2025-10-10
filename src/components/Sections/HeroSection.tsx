@@ -41,7 +41,5 @@ export const HeroSection = () => {
         </div>
       </div>
       
-      {/* Decorative elements */}
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background/20 to-transparent" />
     </section>;
 };

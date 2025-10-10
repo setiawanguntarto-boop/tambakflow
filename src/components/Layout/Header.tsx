@@ -22,9 +22,7 @@ export const Header = () => {
           <a href="/workflow" className="hover:text-accent-light transition-colors font-medium">
             Alur
           </a>
-          <a href="/demo" className="hover:text-accent-light transition-colors font-medium">
-            Demo
-          </a>
+          <a href="/demo" className="hover:text-accent-light transition-colors font-medium">Cara Kerja</a>
           <Button variant="cta" size="default" asChild>
             <a href="/dashboard">Lihat Dashboard</a>
           </Button>

@@ -29,6 +29,9 @@ export const HeroSection = () => {
             <Button variant="whatsapp" size="xl" asChild>
               <a href="https://wa.me/6281024280794?text=Halo%20Tambakflow" target="_blank" rel="noopener noreferrer">Coba Versi Demo</a>
             </Button>
+            <Button variant="outline" size="xl" asChild>
+              <a href="https://youtu.be/GZgQxegbHnw" target="_blank" rel="noopener noreferrer">Lihat Tutorial</a>
+            </Button>
           </div>
           
           <p className="mt-8 text-accent-light text-sm md:text-base">
